@@ -1,0 +1,143 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-top: 10px black;
+    border-bottom: 10px black;
+}
+
+
+body, html{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-bottom: 1px gainsboro solid ;
+    border-top: 1px gainsboro solid;
+    margin: 50px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+
+
+
+.Top_Tutorials{
+    text-align: center;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin-top:  2px;
+    margin-bottom: 2px;
+    box-sizing: inherit;
+    display: block;
+    /* height: 300px; */
+    width: 300px;
+}
+/* .Top_Tutorials_block1 .Top_Tutorials_block1_item{
+    margin-bottom: 10px;
+} */
+.Top_Tutorials_block1 div:not(:first-child):not(:last-child),
+.Top_References_block2 div:not(:first-child):not(:last-child),
+.Top_Examples_block3 div:not(:first-child):not(:last-child),
+.Get_Certified_block4 div:not(:first-child):not(:last-child)
+{
+    margin-bottom: 50px;
+}
+.Top_Tutorials_block1_header {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: 100;
+}
+a:hover{
+    color: green;
+    text-decoration: underline;
+}
+.Top_References{
+    text-align: center;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 1px;
+    box-sizing: inherit;
+    display: block;
+    /* height: 300px; */
+    width: 300px;
+}
+
+.Top_References_block2_header {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.Top_References_block2_body{
+    margin-bottom: 100px;
+}
+
+
+.Top_Examples{
+    text-align: center;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 1px;
+    box-sizing: inherit;
+    display: block;
+    /* height: 300px; */
+    width: 300px;
+}
+
+.Top_Examples_block3_header {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.Top_Examples_block3_body{
+    margin-bottom: 3px;
+}
+
+
+
+.Get_Certified{
+    text-align: center;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin: 1px;
+    box-sizing: inherit;
+    display: block;
+    /* height: 300px; */
+    width: 300px;
+}
+
+.Get_Certified_block4_header {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.Get_Certified_block4_body{
+    margin-bottom: 3px;
+}
+
+
+

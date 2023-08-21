@@ -1,0 +1,243 @@
+/* div{
+    background-color: antiquewhite;
+    font-size: 18px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+    border: 10px red solid;
+
+}
+p{
+    background-color: aquamarine;
+} */
+
+/**Bộ chọn select all**/
+/* * {
+    color: rgb(9, 143, 51);
+} */
+
+/* 1. Bộ chọn select trong 1 thẻ
+p{
+    height: 300px;
+    width: 300px;
+    background-color: #117ec1;
+    text-align:center;
+    text-shadow: 10px;
+    border: 2px rgb(140, 137, 142) solid;
+    } */
+
+/* 2.Bộ chọn tag01,tag02
+p,div{
+    height: 300px;
+    width: 200px;
+    background-color: orange;
+    text-align: center;
+    border-radius: 50px;
+} */
+
+/* 3. Định nghĩa thẻ p nằm ngay sau thẻ div. Chọn tất cả thành phần <tag02> được đặt kế và sau thành phần <tag01>.
+div+p{
+    height: 400px;
+    width: 200px;
+    border: 2px brown solid;
+} */
+
+
+/* 4. "tag01>tag02" chọn tất cả thành phần <tag02> có thành phần cha là <tag01>.
+Định kiểu cho tất cả tag <p> nằm bên trong tag <div>.
+
+div>p{
+    padding: 2px;
+    border: 6px rebeccapurple solid;
+    background-color: rgb(23, 118, 200);
+} */
+
+/* 5. Thẻ.class" chọn tất cả các thành phần có cùng tên class. */
+/* p.standardWeb{
+    width: 500px;
+    height: 200px;
+    border: 10px red solid;
+    padding: 20px;
+    margin: 10px;
+    background-color: #83bd0e;
+    box-sizing:10px;
+    text-align: center;
+
+}
+a.practive{
+    background-color: aqua;
+    border: 70px;
+    margin: 20px;
+    padding: 10px;
+    border-color: black;
+} */
+
+
+/* 6. "#id" chọn tất cả các thành phần có cùng tên id. */
+/* p#learning{
+    color:aqua;
+    padding: 20px red;
+    background-color: blue;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+p#Enchanged{
+    color: brown;
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+} */
+
+
+/* 7. ":active" chọn các liên kết được kích hoạt. Hiệu ứng khi click vào link */
+/* a:active{
+    color: brown;
+    background-color: green;
+
+}
+
+p:active, h1:active{
+    width: 300px;
+    height: 150px;
+    color: orangered;
+    background-color: lemonchiffon;
+
+} */
+
+
+/* 8. Hover: Chọn các liên kết được hover (di chuyển chuột lên thành phần). */
+/* a:hover{
+    background: #ff0000;
+    color: beige;
+}
+
+p:hover, h1:hover{
+    background: #ff0000;
+    color: bisque;
+} */
+
+
+/* 9. ":after" thêm nội dung ngay phía sau thành phần. Sử dụng với content để thêm nội dung phía sau*/
+
+/* a:after{
+    content: "- xin chào";
+}
+
+h1:after, p:after{
+    content: "-alo ";
+} */
+
+
+/* 10. ":before" thêm nội dung ngay phía trước thành phần. Sử dụng với content để thêm nội dung phía sau*/
+
+/* a:before{
+    content: "xin chào ";
+}
+
+h1:before, p:before{
+    content: "alo ";
+} */
+
+
+/* 11.":first-child" chọn thành phần đầu tiên của thành phần cha chứa nó. */
+
+/* div p:first-child{
+    color: pink;
+}
+ol li:first-child{
+    color: brown;
+} */
+
+
+/* 12. ":first-letter" chọn ký tự đầu tiên của một thành phần. */
+/* 
+div p::first-letter{
+    color: red;
+}
+
+ol li:first-letter, div:first-letter{
+    color: blue;
+} */
+
+/* 13. ":focus" thành phần sẽ focus khi được chọn. */
+/* input:focus{
+    background: blanchedalmond;
+} */
+
+/* 14. ":link" định dạng cho tất cả liên kết khi chưa được click.
+a:link{
+    color: red;
+} */
+
+/* 9/6/2023: 
+1. Thuộc tính Float : chỉ định sự trôi nổi của phần tử: ví dụ: để hình ảnh nổi bên trái văn bản hoặc vùng chứa
+left- Phần tử nổi ở bên trái vùng chứa của nó
+right- Phần tử nổi bên phải vùng chứa của nó
+none- Phần tử không nổi (chỉ hiển thị ở vị trí nó xuất hiện trong văn bản). Đây là mặc định
+inherit- Phần tử kế thừa giá trị float của phần tử cha
+*/
+/* p.first {
+
+    background-color: aquamarine;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 400px;
+    
+}
+
+p.second {
+    background-color: aqua;
+    width: 600px;
+    
+  
+} */
+
+
+/* 2. Thuộc tính fload: Ngăn chặn thành A chiếm k gian của thành phần B */
+/* p.first {
+
+    background-color: aquamarine;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 400px;
+    
+} */
+
+/* p.second {
+    background-color: aqua;
+    clear: right;
+  
+} */
+
+
+/* 3. Text-align: Thuộc tính text-align : sắp xếp các nội dung theo chiều ngang.
+text-align: left, right, center, jusstify( độ rông content theo chiều ngang bằng nhau), end. */
+
+p.first{
+    /* text-align: center; */
+    text-align-last: end;
+}
+
+p.second{
+    width: 100px;
+    text-align: justify;
+
+}

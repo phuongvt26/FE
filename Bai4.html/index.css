@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #282A35;
+}
+.list-report{
+    gap: 10px; 
+}
+.list-report button:first-child{
+    font-size: 25px;
+}
+.list-report .list-report__item{
+    font-family: Helvetica Neue,Segoe UI,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    height: 45px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+.list-report__item--blue{
+    color: blue;
+}
+.list-report__item--small{
+    font-size: 10px;
+}
+
+.list-report__item.list-report__item--blue{
+    background: red;
+}
+.list-report__item .list-report__item--blue{
+    background: red;
+}
+button:active{
+    background-color:bisque;
+}
+
+a{
+    color: aliceblue;
+}
+
+a:hover{
+    color: aqua;
+}
+
+.form-about{
+    color: aliceblue;
+}
+.form-about .form-bount__form{
+    color: bisque;
+}
+
+
+/* display: flex;
+align-items: center;
+justify-content: space-between; */

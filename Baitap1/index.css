@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.form{
+    width: 50%;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    overflow: hidden;
+    /* cái này dùng để k cho phần tử con tràn ra ngoài phần tử cha */
+    /* cái overflow này cũng hay, dùng để tạo thanh scroll ý */
+}
+.form .header{
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background: burlywood;
+}
+.form .header .header__title{
+    flex: 1 1;
+    text-align: center;
+}
+.form .body{
+    padding: 16px;
+}
+.form .body .body-item{
+    margin-bottom: 20px;
+}
+.body .body-item .title{
+    margin-bottom: 5px;
+}
+.body .body-item .input,
+.body .body-item .dropdown{
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    outline: none;
+}
+.body .body-item .input:focus,
+.body .body-item .input:focus-visible{
+    border-color: #4096ff;
+    box-shadow: 0 0 0 2px rgba(5, 145, 255, 0.1);
+}
+.body-item .body-item__robot{
+    padding: 20px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    background: #e7dede;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+.body-item .body-item__robot .checkbox{
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+.footer{
+    padding: 0 16px 16px 16px;
+    text-align: center;
+}
+.footer button{
+    padding: 16px 24px;
+    border-radius: 24px;
+    border: 1px solid #d9d9d9;
+    background: red;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Bây giờ cho màn hình nhỏ lại cũng vẫn ok, do k fix cứng width */
+/* Bố cục kiểu này thường chia 3 phần, header thì ok, body chứ tất cả nội dung, còn phần footer thường 
+chứa các nút, kiểu vậy */
+/* Bọc tile và input trong 1 thẻ div là body-item để dễ căn chỉnh hơn, ví dụ như
+margin-bottom giữa các body-item lớn hơn, có thể chèn thêm thẻ cảnh báo là đã
+nhập sai format chẳng hạn... */
+/* ok chưa t ba,o rt hkaăthif sao, cái gì t bảo k thì sao, thì k ở chỗ nào all,
+chỗ nào k hiểu  all, thế thì phải nói chứ chat này khó , giờ k nói đc để mai đùa c v, t b t sai chỗ nào, lát t xem lại
+ */
+/* mỗi người có 1 phong cách code, đây là phong cách của t, có thể 1 số chỗ nó
+hơi dài dòng, nhưng riêng t thấy khá rõ ràng với cả cũng có học đc từ các
+anh phong cách kiểu này, nói chung là ổn. Nếu c viết ngắn hơn, hoặc kiểu khác
+mà vẫn hiển thị đúng thì vẫn ok k có gì phải tranh luận thấy viết loạn rồi t viết loạn */
+/* Mới thì nó thế dần thực hành là rút ra đc kinh nghiệm ?
+c đnag ở ngoài à, t vào phòng rồi
+sao thế ở ngoài thì vào thôi mà cho đỡ muỗi*/
+ /*vào rồi, à thôi đi ngủ. uhm, c nghỉ đi, nay ăn mì tôm ngon k ủa mì tôm, bt, đói thì ăn gì cũng ngon
+ thôi nhé c nghỉ đi. Mì tôm bt nha. Ai lấy cũng v.  */

@@ -1,0 +1,57 @@
+/* contact.html */
+.question {
+    display: flex;
+    margin: 40px;
+
+}
+
+.our-add {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.have-question {
+    width: 60%;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid gray;
+    border: none;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    height: 90%;
+}
+
+.normal-title {
+    font-weight: 600;
+    font-size: 32px;
+    color: #072942;
+    margin-bottom: 30px;
+}
+
+.form-question {
+    padding: 20px;
+    white-space: nowrap;
+    /* k cho xuong dong */
+    
+
+}
+
+.username-name {
+    max-width: 600px;
+    display: flex;
+    gap: 20px;
+
+
+}
+
+.field-name {
+
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    font-size: 15px;
+
+}

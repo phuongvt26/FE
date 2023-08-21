@@ -1,0 +1,43 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    /* gap: k/c giua cac button */
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    background-color: #282A35;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #04AA6D;
+}
+
+button:last-child {
+    font-size: 20px;
+
+}
+
+/* can no ra giua roi do */
+/* de giai thich */

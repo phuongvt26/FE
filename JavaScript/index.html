@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="myScript.js" />
+</head>
+
+<body>
+    <h1>Javascripts</h1>
+    <p id="demo2">Buồn ngủ</p>
+    <p id="demo"></p>
+    <p id="demo2">Buồn</p>
+    <button onclick="myFunction()">Click me</button>
+  
+    <script>
+        let x, y, z;
+        x = 5;
+        y = 6;
+        z = x + y;
+        document.getElementById("demo").innerHTML = "result z is" + z + ".";
+
+        function myFunction() {
+            document.getElementById("demo2").innerHTML = "ok";
+            document.getElementById("demo").innerHTML = "ok";
+        }
+
+    </script>
+
+   
+</body>
+
+</html>

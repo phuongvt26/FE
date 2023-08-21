@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 50vw;
+    height: 50vh;
+
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+
+}
+.container .header .header-title{
+    font-weight: 600px;
+    font-size: 18px;
+}

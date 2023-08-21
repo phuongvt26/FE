@@ -1,0 +1,55 @@
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    /* grid-template-rows: 100px 100px 200px; */
+    /* grid-auto-columns: 200p ; */
+    grid-template-areas:
+    "header header header"
+    "sidebar contain contain"
+    "sidebar contain contain"
+    'footer footer footer';
+    /* column-gap: 10px; /k/c giữa các column */
+
+}
+
+.item-1{
+    border: 1px gray solid;
+    /* grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3; */
+
+    /* grid-column: 1/ 4;
+    grid-row: 1/ 3; */
+    /* grid-area: aa; */
+    grid-area: contain;
+    background: forestgreen;
+    
+
+    
+
+ 
+}
+
+.item-2{
+    border: 1px gray solid;
+    grid-area: header;
+
+ 
+    
+}
+
+.item-3{
+    border: 1px gray solid;
+    grid-area: sidebar;
+
+   
+}
+.item-4{
+    border: 1px gray solid;
+    grid-area: footer;
+    
+   
+}

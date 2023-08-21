@@ -1,0 +1,70 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+body,html{
+   width: 700px;
+   justify-content: center;
+}
+
+.flex{
+    border: 1px solid gray;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    /* justify-content:center; */
+    /* thuộc tính justify-content để điều chỉnh vị trí bắt đầu và căn chỉnh các item bên trong container theo dọc theo trục main axis, chiều ngang hoặc chiều dọc tùy thuộc vào flex-direction. */
+    /* align-items:center; */
+    /* Thuộc tính align-items sử dụng để điều chỉnh vị trí bắt đầu và căn chỉnh các item bên trong container theo dọc theo trục cross axis, chiều ngang hoặc chiều dọc tùy thuộc vào flex-direction. */
+    background: cadetblue;
+    /* flex-direction:column; */
+    /* Thuộc tính flex-direction xác định hướng của main-axis để container sắp xếp các item. */
+    /* flex-wrap:nowrap; */
+    /* thuộc tính flex-wrap cho phép item tự động xuống dòng khi kích thước container thay đổi. */
+    /* flex-flow:column; */
+    /* Thuộc tính flex-flow sử dụng để gộp chung hai thuộc tính flex-direction và flex-wrap. */
+    gap: 10px;
+
+    
+}
+
+
+.item1{
+    background: goldenrod;
+    /* width: 200px; */
+    height: 40px;
+    /* flex-grow: 1; */
+    /* flex-basis:200px;   */
+    flex-grow: 1;
+   /* flex-basis: xét giá trị width khi item không để width
+    flex-basis:auto-> width=content
+    flex-basis:200px-> width=200px */
+    /* flex-shrink: giúp cho width k bị tràn ra ngoài so với width container; */
+    /* order: Thay đổi vị trí ( flex tính từ 0) */
+    flex-shrink: 1; 
+    order: 1;
+
+    
+}
+
+.item2{
+    background: gray;
+    /* width: 200px;
+    height: 50px; */
+    flex-grow: 1;
+    flex-shrink: 1;
+    order: 2; 
+   
+    /* Thuộc tính flex-grow cho phép các phần tử giãn theo độ rộng của container.flex-grow các item = nhau thì dãn đều container */
+}
+
+.item3{
+    background: blueviolet;
+    /* width: 100px;
+    height: 50px; */
+    flex-grow: 2;
+}

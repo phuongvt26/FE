@@ -1,0 +1,17 @@
+.column{
+    border: 1px gray solid;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+    /* vertical-align: top;
+    vertical-align: middle;
+    vertical-align:: giúp canh phần tử table bên trên, ở giữa, bên dưới. */
+    /* text-align: left;
+    text-align: right; */
+    text-align: center;
+}
+
+.table-style{
+    background: gold;
+}
+

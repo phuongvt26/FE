@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+body,html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.references-container{
+    margin-left: 10px;
+    text-align: justify;
+   
+}
+
+.references-container .references-container-block .references-container-block__title{
+    font-weight: 600;
+    font-size: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.references-container .references-container-block .references-container-block__content{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.references-button{
+  display: flex;
+}
+
+.references-container-block .references-container-block__button{
+    /* display: flex;   */
+  /* flex-wrap: wrap; xuống dòng */
+  text-align: center;
+}
+.references-container-block .references-container-block__button .references-button__item{
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    background: darkcyan;
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1;
+}
+.references-container-block .references-container-block__button .references-button__item button {
+    background: darkcyan;
+    border: none;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.references-container-block .references-container-block__button .references-button__item button:hover {
+    cursor: pointer;
+    border-style: unset;
+}
+

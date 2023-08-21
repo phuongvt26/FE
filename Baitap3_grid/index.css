@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqcWPious-j8uMeaMbHqRes4D3UgVQMOU32G3ghGRwEhk-UpGkUuI7pmWoC7QrcaN9790&usqp=CAU");
+
+}
+
+.grid{
+    width: 50%;
+    border-radius: 2px;
+    border: 1px gray solid;
+    margin: 10px;
+    background: white;
+    font-size: 20px;
+}
+.form{
+    margin: 10px;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; */
+    grid-template-areas: 
+    "header header"
+    "aa aa"
+    "bb cc"
+    "dd ee"
+    "hh ii"
+    "kk ll"
+    "mm mm"
+    ;
+    margin-top: 10px;
+    row-gap: 5px;
+    column-gap: 5px
+}
+.header{
+    grid-area: header;
+     height: 40px;
+    border-radius: 2px;
+    font-weight: 600;
+    padding: 10px;
+}
+.item1{
+    grid-area: aa;
+    background: gray;
+    height: 40px;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    padding: 10px;
+
+}
+.item2{
+    grid-area:bb ;
+    background: red;
+    height: 40px;
+    border-radius: 2px;
+    padding: 10px;
+
+}
+
+.item3{
+    grid-area:cc ;
+    background:greenyellow;
+    border-radius: 2px;
+    padding: 10px;
+}
+.item4{
+    grid-area:dd ;
+    background:blue;
+    height: 40px;
+    border-radius: 2px;
+    padding: 10px;
+
+
+}
+.item5{
+    grid-area:ee ;
+    background:darkorchid;
+    border-radius: 2px;
+    padding: 10px;
+
+
+}
+.item6{
+    grid-area:hh;
+    background:orange;
+    height: 40px;
+    border-radius: 2px;
+    padding: 10px;
+
+
+
+}
+.item7{
+    grid-area:ii;
+    background:pink;
+    border-radius: 2px;
+    padding: 10px;
+
+
+}
+.item8{
+    grid-area:kk;
+    background:darkcyan;
+    height: 40px;
+    border-radius: 2px;
+    padding: 10px;
+
+
+}
+.item9{
+    grid-area:ll;
+    background:yellow;
+    border-radius: 2px;
+    padding: 10px;
+    
+
+}
+
+.footer{
+    grid-area:mm;
+    background:salmon;
+    height: 40px;
+    margin: 10px;
+    border-radius: 2px;
+    padding: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+/* Cắt chuổi css
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+
+}
+
+
+.footer:hover{
+        overflow: visible;
+        white-space: pre-line;
+     
+}

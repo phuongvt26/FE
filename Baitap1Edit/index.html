@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai1</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-title">ĐĂNG KÝ NHẬN ƯU ĐÃI TẠI TENTEN</div>
+            <span class="header-close"><i class="fa-solid fa-xmark"></i></span>
+        </div>
+        <div class="body">
+            <div class="body-title"> Họ và tên:</div>
+            <input class="body-item"></input>
+            <!-- type của thẻ input mặc định là text, k cần đặt type="text" nữa -->
+            <!-- Không đặt tên thế này, input lại đặt tên là button trong khi k phải nút -->
+            <div class="body-title">Số điện thoại:</div>
+            <input class="body-item"></input>
+            <div class="body-title">Email:</div>
+            <input class="body-item"></input>
+            <div class="body-title">Chọn dịch vụ nhận ưu đãi:</div>
+            <select class="dropdown" name="Tên miền">
+                <option value="disabled selected hidden">Tên miền</option>
+                <option value="Miền Trung">Miền Trung</option>
+                <option value="Miền Nam">Miền Nam</option>
+                <option value="Miền Bắc">Miền Bắc</option>
+            </select>
+            <div class="body-item">
+                <!-- Thường thì để footer ngang cấp với body chứ k để là con của body, 
+                        (có thể để đc nhưng nên để thế kia) -->
+                <input class="checkbox" type="checkbox"></input>
+                <span class="check">I'm not in a robot</span>
+            </div>
+
+        <div class="footer">
+            </div class="submit">
+            <button onclick="location.href='https://dribbble.com/tags/filter%20ui'" type="submit">Đăng ký</button>
+
+        </div>
+        <!-- tôi không phải người máy thì để trong body, còn submit để trong footer, chia kiểu này k rõ nghĩa,
+     đương nhiên là hiển thị đúng thì vẫn ok -->
+    </div>
+    </div>
+</body>
+
+</html>
+<!-- thôi chết sửa nhầm chỗ -->
